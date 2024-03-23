@@ -18,7 +18,7 @@ const VirtualMeter = () => {
   const socket = useMemo(
     () =>
       io('https://billbackend-b3kn.onrender.com', {
-        withCredentials: true,
+        // withCredentials: true,
       }),
     []
   );
